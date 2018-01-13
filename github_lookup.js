@@ -25,7 +25,7 @@ document.getElementById('button').addEventListener('click', (e) => {
         console.log(typeof src)
 
         console.log(data)
-    }, (e) => { console.log("in here")})
+    }, () => { })
 
     promise.catch(err => {
         document.getElementsByClassName("name")[0].innerHTML = "Username not found, try another!"
